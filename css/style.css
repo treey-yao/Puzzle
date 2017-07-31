@@ -1,0 +1,158 @@
+//@charset "utf-8";
+
+/*********主页面********/
+
+
+/*公共*/
+
+body html {
+	height: 100%;
+}
+
+div {
+	display: block;
+}
+
+.relative {
+	position: relative;
+}
+
+
+/*公共     end*/
+
+
+/*背景*/
+body,
+.d-main {
+	width: 100%;
+	margin: 0 auto;
+	background: url(../img/bg.png) repeat;
+}
+
+
+/*********游戏框**********/
+
+.d-controller {
+	width: 100%;
+	padding: 50px 0;
+	text-align: center;
+}
+
+.d-controller h1 {
+	color: #fff;
+	font-size: 35px;
+	padding: 10px;
+}
+
+.d-start-box {
+	width: 100%;
+	text-align: center;
+	padding: 50px 0;
+}
+
+.d-start-btn {
+	display: inline-block;
+	padding: 20px 100px;
+	background: #F75A32;
+	color: #fff;
+	border-radius: 20px;
+	font-size: 30px;
+}
+
+.d-times-box {
+	display: block;
+	text-align: center;
+}
+
+.d-times-text {
+	display: inline-block;
+	width: 100px;
+	padding: 5px;
+	font-size: 30px;
+	color: #f5f5f5;
+}
+
+.d-picbox {
+	width: 397px;
+	height: 397px;
+	background: url(../img/2.png);
+	background-size: 100% 100%;
+	position: relative;
+	margin: 10px auto;
+	/*background: #fff;*/
+}
+
+.pic {
+	width: 133px;
+	height: 133px;
+	float: left;
+	background: url(../img/2.png);
+	position: absolute;
+	transition: all 0.5s ease 0s;
+	z-index: 2;
+	
+}
+
+.d-mask{
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 397px;
+	height: 397px;
+	z-index: 3;
+}
+
+.d-pic1 {
+	background-position: 0px 0px;
+	left: 0px;
+	top: 0px;
+}
+
+.d-pic2 {
+	background-position: -132px 0px;
+	left: 132px;
+	top: 0px;
+}
+
+.d-pic3 {
+	background-position: -265px 0px;
+	left: 265px;
+	top: 0px;
+}
+
+.d-pic4 {
+	background-position: 0px -132px;
+	left: 0px;
+	top:  132px;
+}
+
+.d-pic5 {
+	background-position: -132px -132px;
+	left:  132px;
+	top:  132px;
+}
+
+.d-pic6 {
+	background-position: -265px -132px;
+	left: 265px;
+	top:  132px;
+}
+
+.d-pic7 {
+	background-position: 0px -265px;
+	left: 0px;
+	top: 264px;
+}
+
+.d-pic8 {
+	background-position: -132px -265px;
+	left: 132px;
+	top: 264px;
+}
+
+.d-pic9 {
+	background-position: -265px -265px;
+	left: 264px;
+	top: 264px;
+}

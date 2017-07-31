@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-title" content="Add to Home">
+		<meta name="format-detection" content="telephone=no">
+		<meta http-equiv="x-rim-auto-match" content="none">
+		<title></title>
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+
+	<body>
+
+		<div class="d-main">
+			<!--控制器-->
+			<div class='d-controller'>
+				<h1>拼图游戏</h1>
+				<div class="d-times-box">
+					<span class="d-times-text">时间：</span>
+					<span class="d-times-text" id='times'>0</span>
+				</div>
+			</div>
+
+			<div class="d-picbox" id='picbox'>
+
+				<div class="pic " data-index='1' style="background-position: 0px 0px;left: 0px;top: 0px;"></div>
+
+				<div class="pic " data-index='2' style="background-position: -132px 0px;left: 132px;top: 0px;"></div>
+
+				<div class="pic " data-index='3' style="background-position: -265px 0px;left: 265px;top: 0px;"></div>
+
+				<div class="pic " data-index='4' style="background-position: 0px -132px;left: 0px;top:  132px;"></div>
+
+				<div class="pic " data-index='5' style="background-position: -132px -132px;left:  132px;top: 132px;"></div>
+
+				<div class="pic " data-index='6' style="background-position: -265px -132px;left: 265px;top: 132px;"></div>
+
+				<div class="pic " data-index='7' style="background-position: 0px -265px;left: 0px;top: 264px;"></div>
+
+				<div class="pic " data-index='8' style="background-position: -132px -265px;left: 132px;top: 264px;"></div>
+
+				<div class="pic " data-index='9' style="background-position: -265px -265px;left: 264px;top: 264px;"></div>
+
+				<div class="d-mask" id="mask"></div>
+
+			</div>
+
+			<div class="d-start-box">
+				<a class="d-start-btn" id='go'>开始</a>
+			</div>
+
+		</div>
+
+		<script src="js/jquery.js"></script>
+		<script src="js/common.js"></script>
+		<script src="js/evet.js"></script>
+		<script>
+			mate()
+		</script>
+	</body>
+
+</html>
